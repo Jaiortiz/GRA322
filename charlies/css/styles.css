@@ -5,28 +5,20 @@ html {
 }
 
 body {
-    font-family: 'Libre Franklin', sans-serif;
+    font-family: 'Futura', sans-serif;
+    color: orange;
+
 }
 
 h1 {
-    color: #fff;
-    font-weight: 500;
+    font-weight: 800;
 }
 
 .grid {
     display: grid;
     grid-template-columns: [full-start] minmax(1rem, 1fr) [main-start] minmax(0,1280px) [main-end] minmax(1rem, 1fr) [full-end];
 }
-
-.grid > * {
+    
+    .grid > * {
     grid-column: main;
-}
-
-header{
-    background-color: var(--gray-dark);
-}
-
-.overview{
-    background-color: var(--gray);
-    color:#fff;
 }
