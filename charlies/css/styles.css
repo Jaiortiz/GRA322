@@ -2,17 +2,61 @@ html {
     --gray: #444;
     --gray-dark: #333; 
     --gray-light: #f2f2f2;
+    --organge: #FF8219;
+    --brown: #4E2808;
+}
+header {
+    background-image: url('../img/beans.jpg');
+    background-size: cover;
 }
 
-body {
-    font-family: 'Futura', sans-serif;
-    color: orange;
-
+header h1 {
+    padding: 10rem 0;
+    font-family: 'futura', sans-serif;
+    font-size: 48pt;
+}
+.topnav{
+    background-color: #FF8219;
+    overflow:hidden;
 }
 
-h1 {
-    font-weight: 800;
+.topnav a{
+  color: #f2f2f2; 
+  display: block;
+  font-size: 24pts;
+  font-weight: bold;
+  padding: 2rem;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  width: 100%;
+  
 }
+
+.topnav ul{
+    list-style: none;
+    background-color: #FF8219;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+.topnav li{
+    display: inline-block;
+}
+.topnav a:hover{
+    background-color: #4E2808 ;
+}
+
+
+body{
+    font-family: 'futura', sans-serif;
+    color: #FF8219;
+}
+
+
+
+
 
 .grid {
     display: grid;
@@ -21,13 +65,4 @@ h1 {
     
     .grid > * {
     grid-column: main;
-}
-
-header {
-    background-image: url('../img/beans.jpg');
-    background-size: cover;
-}
-
-header h1 {
-    padding: 8rem 0;
 }
