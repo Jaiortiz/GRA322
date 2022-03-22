@@ -141,6 +141,14 @@ h3{
 .menu table{
     width: 100%;
 }
+
+.menu table th:first-child {
+    width: 30%;
+}
+
+.price{
+    width: 20%;
+}
 .panini{
     padding: 1rem 3rem;
 }
