@@ -4,14 +4,45 @@ html{
     font-family: 'Helvetica';
 }
 
+.link{
+    color: black;
+    text-decoration: none;
+    color: none;
+    font-size: 16px;
+    
+}
+
+.link:hover{
+    color:white;
+}
+
+
+
+
 .scott{
     font-family: 'Helvetica';
     font-style: oblique;
     font-weight: 400;
     font-size: 24px;
     padding-left: 2rem;
+    padding-bottom: 4rem;
 
 }
+.work{
+    font-weight: bold;
+    font-size: 16px;
+    padding-left: 2rem;
+}
+
+header{
+    font-weight: medium;
+    font-size: 16pt;
+    background-color: #E6E5E5;
+}
+body{
+    background-color: #E6E5E5;
+}
+
 
 h1{
     font-weight: bold;
@@ -32,10 +63,7 @@ h3{
     font-size: 16px;
     padding-left: 2rem;
 }
-header{
-    font-weight: medium;
-    font-size: 16pt;
-}
+
 
 
 img{ 
@@ -71,6 +99,13 @@ main p{
 .ln{
     padding-bottom: 1rem;
     padding-top: 1rem;
+    padding-right: 2rem;
+    padding-left: 2rem;
+    
+    
+}
+.th{
+    padding-bottom: 4rem;
 }
 
 .summary{
@@ -78,6 +113,8 @@ main p{
     padding-left: 2rem;
     padding-top: 1rem;
     padding-bottom: 4rem;
+    padding-right: 2rem;
+    text-indent: .5rem;
     
 }
 
