@@ -4,6 +4,15 @@ html{
     font-family: 'Helvetica';
 }
 
+.scott{
+    font-family: 'Helvetica';
+    font-style: oblique;
+    font-weight: 400;
+    font-size: 24px;
+    padding-left: 2rem;
+
+}
+
 h1{
     font-weight: bold;
     font-size: 18pt;
@@ -72,6 +81,13 @@ main p{
     
 }
 
+.waggle h2{
+    padding-top: 2rem;
+}
+.waggle h3{
+    padding-top: 2rem;
+}
+
 .wp{
     padding-left: 2rem;
     padding-top: 1rem;
@@ -80,7 +96,8 @@ main p{
 
 footer{
     padding-left: 2rem;
-    padding-top: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
     font-size: 10px;
 }
 
