@@ -13,7 +13,7 @@ html{
 }
 
 .link:hover{
-    color:white;
+    color:#6E6E6E;
 }
 
 
@@ -37,11 +37,8 @@ html{
 header{
     font-weight: medium;
     font-size: 16pt;
-    background-color: #E6E5E5;
 }
-body{
-    background-color: #E6E5E5;
-}
+
 
 
 h1{
@@ -69,7 +66,7 @@ h3{
 img{ 
     padding-right: 2rem;
     padding-left: 2rem;
-    padding-top: 2rem;
+    padding-top: 1rem;
 }
 
 main p{
@@ -115,9 +112,38 @@ main p{
     padding-bottom: 4rem;
     padding-right: 2rem;
     text-indent: .5rem;
-    
+}
+.wp{
+    font-size: 16px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+    text-indent: .5rem;
+}
+.cp{
+    font-size: 16px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+    text-indent: .5rem;
+}
+.cd{
+    padding-bottom: 2rem;
 }
 
+.hf{
+    font-size: 16px;
+    padding-left: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+    padding-right: 2rem;
+    text-indent: .5rem;
+}
+.hfd{
+    padding-bottom: 2rem;
+}
 .waggle h2{
     padding-top: 2rem;
 }
@@ -144,5 +170,4 @@ footer{
         grid-template-columns: 1fr 1fr;
         padding: 0 2rem;
     }
-    
 }
