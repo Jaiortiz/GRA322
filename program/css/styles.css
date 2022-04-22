@@ -16,6 +16,9 @@ html{
     color:#6E6E6E;
 }
 
+.other{
+    font-size: 12px;
+}
 
 
 
@@ -37,6 +40,12 @@ html{
 header{
     font-weight: medium;
     font-size: 16pt;
+}
+header h1{
+    padding-top: 2rem;
+}
+header h2{
+    padding-top: 2rem;
 }
 
 
@@ -66,7 +75,8 @@ h3{
 img{ 
     padding-right: 2rem;
     padding-left: 2rem;
-    padding-top: 1rem;
+    padding-top: 2rem;
+
 }
 
 main p{
@@ -164,10 +174,89 @@ footer{
     font-size: 10px;
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width:800px) {
+
     .grid {
-        display: gird;
-        grid-template-columns: 1fr 1fr;
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-template-rows: 2;
         padding: 0 2rem;
     }
+    header{
+        display: grid;
+    }
+    body{
+        display: grid;
+    }
+    div{
+        display: grid;
+    }
+    .scott{
+        display: grid;
+        font-size: 55px;
+        font-weight: lighter;
+    }
+    .mh{
+        display: grid;
+        grid-column: 5 / 5;
+
+    }  
+    img{
+        display: grid;
+        max-width: 800px;
+        padding-left: 2rem;
+        padding-top: 6rem;
+    }
+    .letterNumber{
+        display: grid;
+    }
+    .letterNumber h2{
+        grid-column: 5 / 5;
+        grid-row: 2 / 1;
+        padding-top: 6rem;
+    }
+    p{
+        max-width: 800px;
+    }
+    .ln{
+        max-width: 1000px;
+    }
+    .letterhead{
+        display: grid;
+    }
+    .letterhead h2{
+        grid-column: 5 / 5;
+        padding-left: 1rem;
+    }
+    .HappyFeet{
+        display: grid;
+    }
+    .HappyFeet h2{
+        grid-column: 5 / 5;
+        grid-row: 2 / 1;
+        padding-top: 6rem;
+    }
+
+    .Charlies{
+        display: grid;
+    }
+    .Charlies h2{
+        grid-column: 5 / 5;
+        grid-row: 2 / 1;
+        padding-top: 6rem;
+    }
+    .Waggle{
+        display: grid;
+    }
+    .Waggle h2{
+        grid-column: 5 / 5;
+        grid-row: 2 / 1;
+        padding-top: 6rem;
+
+    }
+    footer{
+        font-size: 16px;
+        font-weight: lighter;
+    }
+
 }
