@@ -12,6 +12,7 @@ html{
 }
 .quote{
     display: grid;
+    grid-column: 1 /2;
 }
 
 .link{
@@ -60,6 +61,7 @@ header h1{
 header h2{
     padding-top: 2rem;
     grid-column: 2 / 2;
+    font-size: 12px;
 
 }
 
