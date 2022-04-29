@@ -5,7 +5,10 @@ html{
 }
 
 .grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     padding-left: 2rem;
+    
 }
 .quote{
     display: grid;
@@ -46,14 +49,17 @@ html{
 }
 
 header{
+    display: grid;
     font-weight: medium;
     font-size: 16pt;
 }
 header h1{
+    display: grid;
     padding-top: 2rem;
 }
 header h2{
     padding-top: 2rem;
+    grid-column: 2 / 2;
 
 }
 
