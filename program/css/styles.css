@@ -7,7 +7,9 @@ html{
 .grid{
     padding-left: 2rem;
 }
-
+.quote{
+    display: grid;
+}
 
 .link{
     color: black;
